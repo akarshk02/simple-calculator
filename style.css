@@ -207,10 +207,3 @@ body.Light .btn strong:nth-child(1) {
 body.Light .btn strong:nth-child(2) {
   display: block;
 }
-
-.sun,
-.moon {
-  height: 60px;
-  width: 60px;
-  border-radius: 10px;
-}
