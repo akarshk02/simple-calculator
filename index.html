@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="btn">
+      <strong
+        ><img
+          class="sun"
+          src="https://media.giphy.com/media/1Fm7jEapE18HwS6fkT/giphy.gif"
+      /></strong>
+      <strong
+        ><img
+          class="moon"
+          src="https://media.giphy.com/media/aN9GqoR7OD3nq/giphy.gif"
+      /></strong>
+    </div>
     <div class="container">
       <form class="calculator" name="calc">
         <input type="text" class="value" readonly name="txt" />
@@ -35,5 +47,13 @@
         >
       </form>
     </div>
+
+    <script>
+      let body = document.querySelector("body");
+      let btn = document.querySelector(".btn");
+      btn.onclick = function () {
+        body.classList.toggle("Light");
+      };
+    </script>
   </body>
 </html>
